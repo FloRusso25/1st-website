@@ -1,0 +1,63 @@
+header h1{
+    
+    background-image: url(design1_image1.jpg);
+    background-size: cover;
+    height: 400px;
+    margin:0;
+    font-family:cursive;
+    font-size: 500%;
+}
+
+header img{
+    
+    width: 75px;
+    height: 75px;
+    margin:0;
+    position:absolute;
+    bottom:-20px;
+    right: 200px;
+}
+
+header h2{
+    background-color: black;
+    color:white;
+    text-align: center;
+    position: relative;
+    bottom:0;
+    margin:0;
+    font-family: cursive;
+    font-size:200%;
+        
+}
+
+.link{
+    float:left;
+    display:block;
+    list-style-type: none;
+    line-height: 300%;
+    font-family: cursive;
+    margin:0;
+    padding:0;
+    width: 200px;
+    
+}
+
+div main{
+    float:left;
+    width: 600px;
+
+
+}
+.title {
+    font-size: larger;
+    font-weight: 900;
+    font-family: fantasy;
+}
+
+.text {
+    margin-left: 30px;
+    width: 900px;
+    font-family: cursive;
+
+    
+}

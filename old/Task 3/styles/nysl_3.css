@@ -1,0 +1,213 @@
+body{
+    background-image: url(nysl_logo.png);
+    background-blend-mode:overlay;
+    background-position: center center;
+    background-size: cover;
+    background-color: lightblue;
+    min-height: 100%;
+}
+
+header{
+    
+    height: 300px;
+}
+
+header div{
+    
+    background-image: url(design2_image1.jpg);
+    background-size: cover;
+    background-blend-mode:multiply;
+    opacity:0.4;
+    height:300px;
+    position:relative;
+    bottom:43vh;
+}
+
+div{
+    margin-top: 80px;
+}
+
+header h1{
+    font-family:serif;
+    font-size: 420%;
+    text-align:right;
+    padding-right: 20px;
+    z-index: 5;
+}
+
+header img{ /*logo de la escuela*/
+    width:200px;
+    height:200px;
+    position:absolute;
+    filter:opacity(100%);
+    left:0;
+    bottom:80px;
+    z-index: 1;
+}
+
+header h2{
+    color:darkblue;
+    border:5px solid black;
+    text-align: center;
+    position: relative;
+    bottom:-175px;
+    margin:0;
+    font-family: cursive;
+    font-size:200%;
+}
+
+.link{ /*Formato general de los links*/
+    float:left;
+    display:block;
+    list-style-type: none;
+    position:absolute;
+    font-family: cursive;
+    margin:5px;
+    top:170px;
+    left:200px;
+}
+.link>li{ /*Formato de cada link*/
+    border: 2px solid black;
+    background-color: green;
+    color:black;
+    margin-right:25px;
+}
+
+a:visited{
+    color:white;
+    background-color: red;
+}
+
+div main{
+    float:left;
+    width: 600px;
+    margin-left: 20px;
+    font-family: cursive;
+}
+main h3{
+    text-align: center;
+    font-family: cursive;
+}
+
+dt{
+    font-weight: 900;
+    text-transform: uppercase;
+    color:darkblue;
+}
+
+dd{/*elimina negrita de textos de la lista*/
+    font-weight:100;
+}
+
+dl{ /*agranda margen de la lista*/
+    width: 800px;
+}
+
+.secTitl{ /*elimina espacios entre dt y dd de enumeraciones dentro de lista*/
+    display:inline;
+    margin-left: 0;
+}
+
+.secTitLi{ /*agrega espacios entre listas enumeradas*/
+    margin-bottom: 25px;
+}
+ 
+ul{ /*listas desordenadas con cuadrados*/
+    list-style:square;
+}
+
+.segul{/*listas desordenadas de 3er orden con circulos*/
+    list-style-type: circle;
+}
+
+.firstOrder{ /*listas ordenadas con números en negrita*/
+    font-weight:bold;
+}
+.notBold{ /*elimina negrita de enumeración substitutions*/
+    font-weight: 100;
+}
+.secondOrder{/*listas ordenadas con letras*/
+    list-style: lower-alpha
+}
+
+.title {
+    font-size: larger;
+    font-weight: 900;
+    font-family: fantasy;
+    color:darkblue;
+    text-align: left;
+}
+
+.titleCentered {
+    font-size: 200%;
+    font-weight: 900;
+    font-family: fantasy;
+    text-align: center;
+    color:darkblue;
+}
+
+.parUnderlin{ /*subrayado*/
+    text-decoration-line: underline;
+}
+
+.text {
+    margin-left: 50px;
+    width: 900px;
+    font-family: cursive;
+}
+
+.textCentered{
+    font-family: cursive;
+    text-align:center;
+}
+
+.tabContainer{
+    position:relative;
+    
+}
+.tabContainer h2, h3, p {
+   width: 200%;
+}  
+
+.tabSchedules{ /*bordes tabla horarios*/
+    border-collapse: separate;
+    border-spacing: 8px 0px;
+}
+
+.tabSchedules th, .tabSchedules td:first-child{ /* centra las filas head y fechas*/
+    text-align: center;
+}
+
+.tabSchedules tbody th{ /*agrega espacios en cabeceras octubre*/
+    padding-top: 10%;
+    
+}
+
+.tabLocations{ /*posiciona en pantalla la tabla locations*/
+    border-collapse: separate;
+    position:absolute;
+    text-align: left;
+    top:30%;
+    width: 100%;
+    margin-left: 100%;
+}
+
+.tabSchedules th, .tabLocations th, .tabInfo th{ /*Da formato titulo a los encabezados de tablas*/
+    color:darkblue;
+    font-size: larger;
+    font-weight: 900;
+    font-family: fantasy;
+}
+
+.tabInfo{
+    border-collapse: separate;
+    position:absolute;
+    text-align: left;
+    top:65%;
+    width:100%;
+    margin-left: 100%;
+}
+
+.tabInfo tfoot td{ /*aumenta separacion de las columnas de la tabla Info*/
+    width:35%;
+}

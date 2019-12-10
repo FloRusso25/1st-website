@@ -1,0 +1,312 @@
+body{
+    background-image: url(nysl_logo.png);
+    background-blend-mode:overlay;
+    background-position: center center;
+    background-size: cover;
+    background-color: lightblue;
+    min-height: 100%;
+}
+
+header{
+    
+    height: 300px;
+}
+
+header div{
+    
+    background-image: url(design2_image1.jpg);
+    background-size: cover;
+    background-blend-mode:multiply;
+    opacity:0.4;
+    height:300px;
+    position:relative;
+    bottom:43vh;
+}
+
+div{
+    margin-top: 80px;
+   
+}
+
+header h1{
+    font-family:serif;
+    font-size: 420%;
+    text-align:right;
+    padding-right: 20px;
+    z-index: 5;
+}
+
+header img{ /*logo de la escuela*/
+    width:200px;
+    height:200px;
+    position:absolute;
+    filter:opacity(100%);
+    left:0;
+    bottom:80px;
+    z-index: 1;
+}
+
+header h2{
+    color:darkblue;
+    border:5px solid black;
+    text-align: center;
+    position: relative;
+    bottom:-175px;
+    margin:0;
+    font-family: cursive;
+    font-size:200%;
+}
+
+.link{ /*Formato general de los links*/
+    float:left;
+    display:block;
+    list-style-type: none;
+    position:absolute;
+    font-family: cursive;
+    margin:5px;
+    top:170px;
+    left:200px;
+}
+.link>li{ /*Formato de cada link*/
+    border: 2px solid black;
+    background-color: green;
+    color:black;
+    margin-right:25px;
+}
+
+a:visited{
+    color:darkblue;
+    background-color: red;
+}
+
+div main{
+    float:left;
+    width: 600px;
+    margin-left: 20px;
+    font-family: cursive;
+}
+main h3{
+    text-align: center;
+    font-family: cursive;
+}
+
+dt{
+    font-weight: 900;
+    text-transform: uppercase;
+    color:darkblue;
+}
+
+dd{/*elimina negrita de textos de la lista*/
+    font-weight:100;
+}
+
+dl{ /*agranda margen de la lista*/
+    width: 800px;
+}
+
+.secTitl{ /*elimina espacios entre dt y dd de enumeraciones dentro de lista*/
+    display:inline;
+    margin-left: 0;
+}
+
+.secTitLi{ /*agrega espacios entre listas enumeradas*/
+    margin-bottom: 25px;
+}
+ 
+ul{ /*listas desordenadas con cuadrados*/
+    list-style:square;
+}
+
+.segul{/*listas desordenadas de 3er orden con circulos*/
+    list-style-type: circle;
+}
+
+.firstOrder{ /*listas ordenadas con números en negrita*/
+    font-weight:bold;
+}
+.notBold{ /*elimina negrita de enumeración substitutions*/
+    font-weight: 100;
+}
+.secondOrder{/*listas ordenadas con letras*/
+    list-style: lower-alpha
+}
+
+.title {
+    font-size: larger;
+    font-weight: 900;
+    font-family: fantasy;
+    color:darkblue;
+    text-align: left;
+}
+
+.titleCentered {
+    font-size: 200%;
+    font-weight: 900;
+    font-family: fantasy;
+    text-align: center;
+    color:darkblue;
+}
+
+.parUnderlin{ /*subrayado*/
+    text-decoration-line: underline;
+}
+
+.text {
+    margin-left: 50px;
+    width: 900px;
+    font-family: cursive;
+}
+
+.textCentered{
+    font-family: cursive;
+    text-align:center;
+}
+
+.tabContainer{
+    position:relative;
+    
+}
+.tabContainer h2, h3, p {
+   width: 200%;
+}  
+
+.tabSchedules{ /*bordes tabla horarios*/
+    border-collapse: separate;
+    border-spacing: 8px 0px;
+}
+
+.tabSchedules th, .tabSchedules td:first-child{ /* centra las filas head y fechas*/
+    text-align: center;
+}
+
+.tabSchedules tbody th{ /*agrega espacios en cabeceras octubre*/
+    padding-top: 10%;
+    
+}
+
+.tabLocations{ /*posiciona en pantalla la tabla locations*/
+    border-collapse: separate;
+    position:absolute;
+    text-align: left;
+    top:50%;
+    width: 100%;
+    margin-left:75%;
+    
+    
+}
+
+.tabSchedules th, .tabLocations th, .tabInfo th{ /*Da formato titulo a los encabezados de tablas*/
+    color:darkblue;
+    font-size: larger;
+    font-weight: 900;
+    font-family: fantasy;
+}
+
+.tabInfo{ /*posiciona en pantalla la tabla info*/
+    border-collapse: separate;
+    position:absolute;
+    text-align: left;
+    top:20%;
+    width: 100%;
+    margin-left:75%;
+    
+    width:100%;
+    
+}
+
+.tabInfo tfoot td{ /*aumenta separacion de las columnas de la tabla Info*/
+    width:35%;
+}
+iframe{ /*Posiciona el mapa en pantalla*/
+    position:absolute;
+    top:125%;
+    margin-left: 2%;
+    width: 600px;
+    height: 450px;
+    border:0;
+}
+
+.permission p{ /*Formato parrafo fieldset permission*/
+    width:100%;
+    
+}
+
+.permission{/*Da formato al fieldset permission*/
+    font-family: cursive;
+    font-size:75%;
+}
+
+form{ /*Tipo de letra del formulario*/
+    font-family:cursive;
+}
+
+form legend{ /*Da formato a todas las leyendas del formulario*/
+    text-decoration: underline;
+    font-weight: 900;
+    font-family: fantasy;
+    color:darkblue;
+    font-size:120%;
+}
+
+form th{
+    color:darkblue;
+    margin-right:100px;
+    text-align: left;
+}
+
+form table{
+    border-collapse: collapse;
+    
+}
+
+.continued{
+    display:inline;
+   
+}
+ 
+.continued span{ /*Da formato a las leyendas entre paréntesis*/
+    font-family: cursive;
+    text-decoration: none;
+    font-size: 90%;
+    
+}
+
+option{
+    font-family: cursive;
+}
+
+.maps{/*Formato a los mapas*/
+    display:inline;
+    width:400px;
+    height:200px;
+    border:0px;
+    position:relative;
+    padding:0;
+}
+
+form input{/*Cambia el cursor en los cuadros input*/
+    cursor:crosshair;
+}
+.basicInfo [type="radio"]{ /*Da foramto a los radiobutttons */
+    margin-right: 0;
+    width:1vw;
+    
+}
+.basicInfo input, input[name="permissionSign"], input[name="permissionDate"], select{ /*da formato y agranda los input*/
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    
+    width:35vw;
+   
+}
+
+.submit{
+    border:1px solid darkblue;
+    background: green;
+    border-radius: 5px;
+    font-family: fantasy;
+    color:darkblue;
+    font-size:larger;
+    
+    
+}
